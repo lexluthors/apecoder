@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="3dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    app:cardElevation="3dp"
+    >
+
+        <LinearLayout
+            android:padding="@dimen/margin15"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/text_layout"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title_des"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="10dp"
+                    android:text="源码之家欢迎你"
+                    android:maxLines="2"
+                    android:textColor="@color/text_color"
+                    android:textSize="14sp"/>
+                <TextView
+                    android:layout_marginTop="@dimen/dp_4"
+                    android:id="@+id/detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingEnd="10dp"
+                    android:text="源码之家欢迎afa发噶水电费干啥啊噶啥的高度尴尬死噶啥的噶啥时嘎嘎噶十多个噶啥的嘎三道杠阿萨德噶十多个傻干啥的高阿嘎山东高速广发上岗你"
+                    android:maxLines="3"
+                    android:textColor="@color/gray_content"
+                    android:textSize="12sp"/>
+
+                <LinearLayout
+                    android:layout_marginTop="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <com.apecoder.club.widget.CircleImageView
+                        android:id="@+id/avatar"
+                        android:layout_width="@dimen/margin17"
+                        android:layout_height="@dimen/margin17"
+                        android:src="@mipmap/splash_icon"/>
+
+                    <TextView
+                        android:id="@+id/nickname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center"
+                        android:text="码农之家"
+                        android:textColor="@color/color_999"
+                        android:textSize="11sp"/>
+
+                    <TextView
+                        android:layout_marginStart="@dimen/dp_10"
+                        android:id="@+id/comments"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="120评论"
+                        android:textColor="@color/color_999"
+                        android:textSize="11sp"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/cover_image"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/splash_icon"/>
+        </LinearLayout>
+
+</android.support.v7.widget.CardView>

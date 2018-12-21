@@ -1,0 +1,111 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+    <!-- 启动页 -->
+    <style name="Theme.AppStartLoad" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/main_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="MenuDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="MenuDialogAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+
+        <!-- 设置完全透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 设置无边框 -->
+        <!-- <item name="android:windowFrame">@null</item> -->
+        <!-- 设置无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置为浮动窗口 -->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 设置动画 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <!-- 设置屏幕变暗 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="WhiteDialogStyle" parent="@android:style/Theme.Dialog">
+
+        <!-- 设置完全透明 -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- 设置无边框 -->
+        <!-- <item name="android:windowFrame">@null</item> -->
+        <!-- 设置无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置为浮动窗口 -->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 设置动画 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <!-- 设置屏幕变暗 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <declare-styleable name="CircularProgressBar">
+        <attr name="cpbStyle" format="reference"/>
+        <attr name="cpb_color" format="color"/>
+        <attr name="cpb_colors" format="reference"/>
+        <attr name="cpb_stroke_width" format="dimension"/>
+        <attr name="cpb_min_sweep_angle" format="integer"/>
+        <attr name="cpb_max_sweep_angle" format="integer"/>
+        <attr name="cpb_sweep_speed" format="float"/>
+        <attr name="cpb_rotation_speed" format="float"/>
+        <attr name="cpb_cap_round" format="boolean"/>
+    </declare-styleable>
+
+    <style name="CircularProgressBar" parent="android:Widget.Holo.ProgressBar">
+        <item name="cpb_color">@color/cpb_default_color</item>
+        <item name="cpb_stroke_width">@dimen/cpb_default_stroke_width</item>
+        <item name="cpb_min_sweep_angle">@integer/cpb_default_min_sweep_angle</item>
+        <item name="cpb_max_sweep_angle">@integer/cpb_default_max_sweep_angle</item>
+        <item name="cpb_sweep_speed">@string/cpb_default_sweep_speed</item>
+        <item name="cpb_rotation_speed">@string/cpb_default_rotation_speed</item>
+    </style>
+
+    <!--<style name="ToolbarStyle" parent="ThemeOverlay.AppCompat.Dark.ActionBar">--><!--白色返回键主题-->
+    <!--ThemeOverlay.AppCompat.Light  黑色返回键主题-->
+    <style name="ToolbarStyle" parent="ThemeOverlay.AppCompat.Dark.ActionBar"><!--黑色图标主题-->
+        <item name="android:background">@color/main_color</item>
+    </style>
+
+    <style name="ToolbarPopupTheme" parent="ThemeOverlay.AppCompat.Light"><!--白色menu面板-->
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="ToolbarBlackTextColorStyle">
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

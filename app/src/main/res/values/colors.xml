@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0080ff</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="color_transparent_8000">#88000000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dialog_button">#0080ff</color>
+    <color name="text_color">#293043</color>
+    <color name="common_pressed">#20000000</color>  <!--白色背景按下去的颜色-->
+    <color name="app_bg_color">#f3f3f3</color>
+    <color name="gray_text">#bcbcbc</color>
+    <color name="gray_bg">#f3f3f3</color>
+    <color name="light_gray">#808080</color>
+    <color name="main_color">#0080ff</color>
+    <color name="color_999">#999999</color>
+    <color name="color_293">#293043</color>
+    <color name="color_fa3">#fa3c99</color>
+    <color name="gray_tip_9">#999999</color>
+    <color name="gray_content">#676a72</color>
+    <color name="gray_line">#e5e5e5</color>
+    <color name="svg_icon_nav">#515151</color>
+    <color name="button_txt_normal">#ffd9ea</color>
+    <color name="text_transparent70">#ffdeed</color>
+    <color name="tip_bg_transparent70">#fff0f8</color>
+    <color name="tip_bg_trans90">#e6ffffff</color>
+    <color name="tip_bg_trans12">#1Effffff</color>
+    <color name="white_trans70">#B3ffffff</color>
+</resources>

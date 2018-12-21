@@ -1,0 +1,44 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="gudieview_width">6dp</dimen>
+    <dimen name="gudieview_heigh">6dp</dimen>
+
+    <!-- font -->
+    <dimen name="font_tiny">10sp</dimen>
+    <dimen name="font_small">12sp</dimen>
+    <dimen name="font_normal">14sp</dimen>
+    <dimen name="font_normal2">16sp</dimen>
+    <dimen name="font_normal3">20sp</dimen>
+    <dimen name="font_large">24sp</dimen>
+    <dimen name="action_size">48dp</dimen>
+    <dimen name="action_size45">45dp</dimen>
+
+    <color name="cpb_default_color">@color/colorAccent</color>
+    <dimen name="cpb_default_stroke_width">4dp</dimen>
+    <integer name="cpb_default_min_sweep_angle">20</integer>
+    <integer name="cpb_default_max_sweep_angle">310</integer>
+    <item name="cpb_default_sweep_speed" format="float" type="string">1</item>
+    <item name="cpb_default_rotation_speed" format="float" type="string">1</item>
+
+    <dimen name="size_avatar">43dp</dimen>
+    <dimen name="toolbar_heigh45">45dp</dimen>
+    <dimen name="toolbar_heigh48">48dp</dimen>
+    <dimen name="toolbar_heigh50">50dp</dimen>
+    <dimen name="toolbar_heigh55">55dp</dimen>
+    <dimen name="toolbar_contentInsetEnd">0dp</dimen>
+    <dimen name="toolbar_StartWith">0dp</dimen>
+    <dimen name="divider_size">0.5dp</dimen>
+    <dimen name="left_margin25">25dp</dimen>
+    <dimen name="right_margin25">25dp</dimen>
+    <dimen name="left_margin30">30dp</dimen>
+    <dimen name="right_margin30">30dp</dimen>
+    <dimen name="margin15">15dp</dimen>
+    <dimen name="margin17">17dp</dimen>
+    <dimen name="margin20">20dp</dimen>
+</resources>
